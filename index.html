@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Kursi TechUP</title>
-	</head>
-	<body>
-  		<h1>Tungjatjeta, unë jam pjesë e kursit TechUP</h1>
-		<p>Uebfaqja jonë personale.</p>
-		<ul>
-			<li>
-			  <a href="gallery.html">Galeria</a>
-		  	</li>
-			<li>
-			  <a href="about.html">Rreth nesh</a>
-		  	</li>
-			<li>
-			  <a href="contact.html">Kontakt</a>
-		  	</li>
-		</ul>
-		<h1>Galeria ime</h1>
-		<p>
-		Këtu do vendosim fotografitë tona që do i shfaqim për të tjerët.
-		</p>
-		<img src="foto1.jpg" alt="Foto1"> 
-	  	<table>
-			<caption>Informatat e personit</caption>
-			<tr>
-				<th>Emri</th>
-				<th>Mbiemri</th>
-				<th>Mosha</th>
-				<th>Gjinia</th>
-			</tr>
-			<tr>
-				<td>Hasan</td>
-				<td>Hiseni</td>
-				<td>17</td>
-				<td>M</td>
-			</tr>
-		  	<tr>
-				<td>Fisnike</td>
-				<td>Hasani</td>
-				<td>18</td>
-				<td>F</td>
-			</tr>
-		</table>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Kursi TechUP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="px-2 py-5">
+    <div class="bg-red-700 font-serif text-center">
+        <h1 class="text-5xl mb-4">Tungjatjeta, unë jam pjesë e kursit TechUP</h1>
+        <p>Uebfaqja jonë personale.</p>
+    </div>
+
+    <div>
+        <h3 class="bg-sky-700 text-white-700 px-4 py-2 rounded-lg">title</h3>
+        <p class="bg-cyan-700 text-white-700 px-4 py-2  rounded-lg">Pershkrim</p>
+        <button class="bg-red-700 text-black-700 px-4 py-2 rounded-lg">CLick me </button>
+    </div>
+
+
+
+    <div class="flex justify-between items-center">
+        <h1 class="text-3xl">Galeria ime</h1>
+        <ul class="flex mt-3.5">
+            <li class="p-3.5 bg-cyan-700 hover:bg-cyan-300 hover:text-white-700 text-white-300">
+                <a href="gallery.html">Galeria</a>
+            </li>
+            <li class="p-3.5 bg-cyan-700 hover:bg-cyan-300 hover:text-white-700 text-white-300">
+                <a href="about.html">Rreth nesh</a>
+            </li>
+            <li class="p-3.5 bg-cyan-700 hover:bg-cyan-300 hover:text-white-700 text-white-300">
+                <a href="contact.html">Kontakt</a>
+            </li>
+        </ul>
+    </div>
+    <p>
+        Këtu do vendosim fotografitë tona që do i shfaqim për të tjerët.
+    </p>
+    <img src="foto1.jpg" alt="Foto1" class="w-[50%] my-10 h-auto mr-auto ml-auto">
+    <table class="w-full">
+        <caption class="caption-bottom">Informatat e personit</caption>
+        <tr>
+            <th class="text-center p-2 bg-sky-700 text-black-700">Emri</th>
+            <th class="text-center p-2 bg-sky-700 text-black-700">Mbiemri</th>
+            <th class="text-center p-2 bg-sky-700 text-green-700">Mosha</th>
+            <th class="text-center p-2 bg-sky-700 text-yellow-700">Gjinia</th>
+        </tr>
+        <tr>
+            <td class="text-right p-2">Hasan</td>
+            <td class="text-right p-2">Hiseni</td>
+            <td class="text-right p-2">17</td>
+            <td class="text-right p-2">M</td>
+        </tr>
+        <tr>
+            <td class="text-right p-2">Fisnike</td>
+            <td class="text-right p-2">Hasani</td>
+            <td class="text-right p-2">20</td>
+            <td class="text-right p-2">F</td>
+        </tr>
+    </table>
+    <div class="text-left p-4 bg-cyan-300">
+        <p>Contact info: 555 555 555</p>
+    </div>
+</body>
 </html>

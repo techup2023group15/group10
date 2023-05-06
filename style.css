@@ -7,17 +7,14 @@
     background-color: #247BA0;
 }
 
-#foto1 {
-    width: 100%;
-      height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#lulja {
+    width: 400px;
+    height: 200px;
 }
 
 ul {
     float: right;
-    background-color: #247BA0;
+    background-color: #ff0000;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,7 +33,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #5ADBFF;
+    background-color: #000000;
     height: 22px;
     color: #247BA0;
 }
@@ -56,7 +53,7 @@ th, td {
 }
 
 th {
-    background-color: #094074;
+    background-color: #e2400f;
     color: white;
 }
 
@@ -65,3 +62,27 @@ th {
     padding: 0.5em;
     text-align: right;
 }
+#btn { 
+    background-color: #ff0000
+    cornflowerblue;
+    padding: 10px 40px 60px 30px;
+
+    margin: 30px 45px 30px 45px;
+}
+
+th:hover {
+    background-color: black;
+  }
+  tr:nth-child(even){
+    background-color: blue;
+    }
+    tr:nth-child(odd){
+    background-color: green;
+    }
+    #lulja{
+        width: 200px;
+        height: 200px;
+        margin: 200px;
+        padding: 100px;
+        
+    }
